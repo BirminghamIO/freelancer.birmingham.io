@@ -67,7 +67,8 @@ h3 {
 	background-color: #fff;
 }
 
-.listing {
+.listing,
+.about {
 	margin-top: 15px;
 }
 
