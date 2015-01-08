@@ -6,6 +6,7 @@ $(function (){
         url: mySpreadsheet,
         chunkSize: 100,
         sql: 'select B,C,D,F,E,H,G,I order by C asc, B asc',
+        labels: ['Name', 'Availability', 'Working', 'Skills', 'Location', 'Website', 'Twitter', 'Birmingham.IO'],
         userCallback: function() {
             links();
             twitter();
