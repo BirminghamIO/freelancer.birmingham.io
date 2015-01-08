@@ -1,8 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
-	background: url('../images/shattered-island.gif') 0 0 repeat;
-
+	background: #348cb2;
 }
 
 p {
@@ -10,7 +9,7 @@ p {
 }
 
 a {
-	color: #1179be;	
+	color: #1179be;
 }
 
 hr {
@@ -25,12 +24,12 @@ header {
 	background-color: #fff;
 }
 
-.navbar-brand {
+.navbar-default .navbar-brand {
 	text-transform: uppercase;
 	font-size: 12px;
-	color: #f4c532 !important;
+	color: #348cb2;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;			
+	font-weight: 400;
 }
 
 .accent {
@@ -47,7 +46,7 @@ h1 {
 	text-transform: uppercase;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
 	text-align: center;
-	font-weight: 300;	
+	font-weight: 300;
 }
 
 h2 {
@@ -94,7 +93,7 @@ td, th {
 
 td.website-link a {
 	color: #1179be;
-	
+
 }
 
 td.website-link a:visited {
@@ -130,7 +129,7 @@ th {
 	padding: 10px;
 	background-color: transparent;
 	border-color: #fff;
-	color: 	#f4c532;	
+	color: 	#f4c532;
 }
 
 .nav .fa {
@@ -146,7 +145,7 @@ th {
 }
 
 .btn-primary:hover {
-	background-color: #f4c532;	
+	background-color: #f4c532;
 	color: #333;
 	border-color:#f4c532 ;
 }
