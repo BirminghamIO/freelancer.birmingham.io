@@ -5,7 +5,7 @@ $(function (){
     $('#freelancerslist').sheetrock({
         url: mySpreadsheet,
         chunkSize: 100,
-        sql: 'select B,C,D,F,E,H,G,I order by A desc',
+        sql: 'select B,C,D,F,E,H,G,I order by C asc, B asc',
         userCallback: function() {
             links();
             twitter();
@@ -51,7 +51,8 @@ function birminghamIO() {
 function tableFilterApplication() {
     $('#freelancerslist').filterTable({
         quickList: ['Branding', 'Graphic Design', 'JavaScript', 'PHP'],
-        placeholder: "Search this list"
+        placeholder: "Search this list",
+        minRows: 1
     });
 
      // add boostrap style to table
