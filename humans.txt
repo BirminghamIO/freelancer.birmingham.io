@@ -1,0 +1,18 @@
+/* TEAM */
+
+Daniel Hollands
+http://danielhollands.co.uk
+@limeblast
+
+Luke Armstrong
+http://lukearmstrong.co.uk
+@6c61
+
+
+/* THANKS */
+
+This project was originally created by Mariana Mota Morris and James Morris.
+We forked it from marianamota/oxfordfreelancers, which powers Oxford Freelancers.
+
+http://oxfreelancers.com
+https://github.com/marianamota/oxfordfreelancers
