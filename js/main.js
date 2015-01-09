@@ -14,6 +14,8 @@ $(function (){
             tableFilterApplication();
         }
     });
+
+    $('[data-toggle="tooltip"]').tooltip();
 });
 
 // Add Website Links
