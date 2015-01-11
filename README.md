@@ -22,7 +22,7 @@ To find out more about this project, visit the [discussion thread on Birmingham.
 Our fork of this project uses [Jeykll](http://jekyllrb.com/) to share the layout between the pages. Assuming you have [Ruby](https://www.ruby-lang.org/) and [Bundler](http://bundler.io/) installed, you should be able to run these commands to get your own version running locally.
 ```bash
 git clone git@github.com:BirminghamIO/freelancers.birmingham.io.git
-cd freelancer.birmingham.io/
+cd freelancers.birmingham.io/
 bundle install
 jekyll serve
 ```
