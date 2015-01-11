@@ -5,11 +5,12 @@ $(function (){
     $('#freelancerslist').sheetrock({
         url: mySpreadsheet,
         chunkSize: 100,
-        sql: 'select B,C,D,F,E,H,G,I order by C asc, B asc',
-        labels: ['Name', 'Availability', 'Working', 'Skills', 'Location', '<i class="fa fa-home" title="Website"></i>', '<i class="fa fa-twitter" title="Twitter"></i>', '<i class="fa fa-cloud" title="Birmingham.io Profile"></i>'],
+        sql: 'select B,C,D,F,E,H,G,J,I order by C asc, B asc',
+        labels: ['Name', 'Availability', 'Working', 'Skills', 'Location', '<i class="fa fa-home" title="Website"></i>', '<i class="fa fa-twitter" title="Twitter"></i>', '<i class="fa fa-envelope" title="Email"></i>', '<i class="fa fa-cloud" title="Birmingham.io Profile"></i>'],
         userCallback: function() {
             links();
             twitter();
+            email();
             birminghamIO();
             tableFilterApplication();
         }
@@ -46,9 +47,24 @@ function twitter() {
     });
 }
 
+// Add Email links
+function email() {
+    var twitterEl = $('#freelancerslist td:nth-child(8)');
+    twitterEl.each(function(index) {
+        if ($(this).text().length) {
+            var link = "mailto:";
+                link += $(this).text();
+
+            var text = $(this).text();
+
+            $(this).html('<a href="'+ link +'" target="_blank" title="'+ text + '" class="link-email"><i class="fa fa-envelope"></i></a>');
+        }
+    });
+}
+
 // Add Birmingham.IO Links
 function birminghamIO() {
-    var twitterEl = $('#freelancerslist td:nth-child(8)');
+    var twitterEl = $('#freelancerslist td:nth-child(9)');
     twitterEl.each(function(index) {
         if ($(this).text().length) {
             var link = "https://talk.birmingham.io/users/";
