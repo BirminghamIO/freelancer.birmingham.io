@@ -80,7 +80,21 @@ function birminghamIO() {
 // Add a table filter
 function tableFilterApplication() {
     $('#freelancerslist').filterTable({
-        quickList: ['Branding', 'Graphic Design', 'JavaScript', 'PHP'],
+        quickList: [
+            'Animation',
+            'Branding',
+            'Copywriting',
+            'Graphic Design',
+            'Illustration',
+            'HTML, CSS',
+            'JavaScript',
+            '.NET',
+            'PHP',
+            'Python',
+            'Ruby',
+            'Node',
+            'Mobile App Development'
+        ],
         placeholder: "Search this list",
         minRows: 1
     });
