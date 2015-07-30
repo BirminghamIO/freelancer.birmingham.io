@@ -92,8 +92,17 @@ function tableFilterApplication() {
             'PHP',
             'Python',
             'Ruby',
+            'Go',
+            'Java',
             'Node',
-            'Mobile App Development'
+            'Mobile App Development',
+            'iOS Development',
+            'Android Development',
+            'Windows Mobile Development',
+            'Django',
+            'Ruby on Rails',
+            'CakePHP',
+            'Laravel'
         ],
         placeholder: "Search this list",
         minRows: 1
