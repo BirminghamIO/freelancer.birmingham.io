@@ -15,9 +15,7 @@ This project was originally created by [Mariana Mota Morris](http://www.marianam
 
 ### Want to make changes?
 
-To find out more about this project, visit the [discussion thread on Birmingham.IO](https://talk.birmingham.io/t/birmingham-freelancers-project-idea/287), or pop into our Gitter channel:
-
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BirminghamIO/freelancers.birmingham.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+To find out more about this project, visit the [discussion thread on Birmingham.IO](https://talk.birmingham.io/t/birmingham-freelancers-project-idea/287).
 
 Our fork of this project uses [Jeykll](http://jekyllrb.com/) to share the layout between the pages. Assuming you have [Ruby](https://www.ruby-lang.org/) and [Bundler](http://bundler.io/) installed, you should be able to run these commands to get your own version running locally.
 ```bash
